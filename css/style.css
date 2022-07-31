@@ -27,14 +27,27 @@ body {
     border-radius: .6rem;
 }
 
+figure {
+    width: 21.5rem;
+    height: 15rem;
+    border: 1px solid red;
+}
+
 .product-image {
     width: auto;
-    height: 15rem;
+    height: 37.5rem;
     border-radius: .6rem .6rem 0 0;
     background-image: url(../images/image-product-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
+}
+
+.product-description {
+    border: 1px solid green;
+    width: 21.5rem;
+    height: 20rem;
+    border-radius: .6rem;
 }
 
 .intro {
@@ -112,4 +125,18 @@ button {
 
 button:active {
     background-color: hsl(159, 41%, 25%);
+}
+
+@media (min-width: 1440px) {
+    .principal {
+        border: 1px solid red;
+        width: 40rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .product-description {
+        width: 20rem;
+        height: 20rem;
+        border: 1px solid green;
+    }
 }
