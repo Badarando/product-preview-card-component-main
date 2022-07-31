@@ -24,6 +24,7 @@ body {
     flex-direction: column;
     
     border: 1px solid red;
+    background-color: var(--white);
     border-radius: .6rem;
 }
 
@@ -35,4 +36,31 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
+}
+
+.intro {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding-left: 1rem;
+    color: var(--dark-grayish-blue);
+}
+
+.title {
+    width: 19rem;
+    font-family: 'Fraunces', serif;
+    padding-left: 1rem;
+}
+
+.description {
+    width: 20rem;
+    padding-left: 1rem;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    line-height: 1.5rem;
+
+    color: var(--dark-grayish-blue);
 }
