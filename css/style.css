@@ -8,4 +8,31 @@
 
 body {
     background-color: var(--cream);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.principal {
+    width: 21.5rem;
+    height: 37.5rem;
+    margin-top:  9%;
+    margin-bottom: 9%;
+
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid red;
+    border-radius: .6rem;
+}
+
+.product-image {
+    width: auto;
+    height: 15rem;
+    border-radius: .6rem .6rem 0 0;
+    background-image: url(../images/image-product-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
 }
