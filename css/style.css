@@ -129,7 +129,6 @@ button:active {
 
 @media (min-width: 1440px) {
     .principal {
-        border: 1px solid red;
         width: 45rem;
         height: 35rem;
         display: flex;
@@ -140,7 +139,7 @@ button:active {
     .product-description {
         width: 22.5rem;
         height: 35rem;
-        border: 1px solid green;
+        border-radius: 0 .6rem .6rem 0;
     }
     figure {
         width: 15rem;
@@ -151,5 +150,46 @@ button:active {
         height: 35rem;
         border-radius: .6rem 0 0 .6rem;
         background-image: url(../images/image-product-desktop.jpg);
+    }
+
+    .intro {
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+        padding-left: 1.9rem;
+    }
+
+    .title {
+        font-size: 2.3rem;
+        margin-bottom: 2rem;
+        padding-left: 1.9rem;
+    }
+    .description {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+        padding-left: 1.9rem;
+    }
+    .promotion {
+        gap: 1.5rem;
+        padding-left: 1.9rem;
+    }
+    .price-promotion {
+        font-size: 2.5rem;
+    }
+    .price {
+        font-size: 1rem;
+    }
+
+    button {
+        width: 18.5rem;
+        height: 3.8rem;
+
+        font-size: 1.2rem;
+        margin-left: 1.9rem;
+        margin-top: 2rem;
+    }
+
+    img {
+        height: 1.2rem;
     }
 }
